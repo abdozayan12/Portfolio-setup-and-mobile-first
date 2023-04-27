@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap');
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 30px;
+}
+
+.boxContainer {
+  margin-top: 0;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  overflow: visible;
+  margin-right: 30px;
+}
+
+.boxHeader {
+  background-image: url("images/header-shapes mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxConnect {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #7f8cff;
+  margin: 0 8px;
+  padding-top: 10px;
+}
+
+.boxPar {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #344563;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.boxHead {
+  margin-bottom: 0;
+  margin-left: 5px;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 52px;
+  text-align: left;
+  color: #172b4d;
+  padding-top: 70px;
+  display: flex;
+}
+
+.boxMenu {
+  position: absolute;
+  margin-top: 0;
+}
+
+.boxNav {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 12px;
+  color: #6070ff;
+}
+
+header {
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.boxSocial {
+  margin: 0 8px;
+  display: flex;
+  margin-top: 5px;
+  list-style: none;
+  padding: 5px;
+  column-gap: 15px;
+}
