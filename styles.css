@@ -7,15 +7,12 @@ body {
 }
 
 .boxContainer {
-  background-color: rgb(238, 237, 237);
+  background-color: white;
   margin-top: 0;
   padding: 5px;
   display: block;
-  /* justify-content: flex-end; */
   align-items: center;
-  /* gap: 30px; */
   overflow: hidden;
-  /* margin-right: 30px; */
   position: sticky;
 }
 
