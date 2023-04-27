@@ -25,9 +25,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Hello Microverse Project <a name="about-project"></a>
+# 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
 
-Hello Microverse my first milestone at microverse
+Portfolio-setup-and-mobile-first my second milestone at microverse
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,7 +38,7 @@ Hello Microverse my first milestone at microverse
 - package.json
 ### Key Features <a name="key-features"></a>
 
-Hello World!
+Portfolio-setup-and-mobile-first
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -56,10 +56,10 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-https://github.com/abdozayan12/W-1-D-2
+https://github.com/abdozayan12/Portfolio-setup-and-mobile-first
 
  ````
- cd W-1-D-2
+ cd Portfolio-setup-and-mobile-first
  ````
 
 ## 👥 Authors <a name="authors"></a>
@@ -76,8 +76,8 @@ https://github.com/abdozayan12/W-1-D-2
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [add Paragraph tag ] 
-- [add link tag ] 
+- [add another part of the portfolio ] 
+-  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,7 +86,7 @@ https://github.com/abdozayan12/W-1-D-2
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/abdozayan12/W-1-D-2/issues).
+Feel free to check the [issues page](https://github.com/abdozayan12/Portfolio-setup-and-mobile-first/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
