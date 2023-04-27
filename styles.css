@@ -1,51 +1,66 @@
-* {
-  font-family: sans-serif;
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap');
+
+
+*{
+  font-family: 'Poppins' sans-serif;
 }
 
 body {
-  background: url("images\header-background-mobile.png") no-repeat;
-  background-size: contain;
-  background-color: #ccc;
+ background-color: white;
+ font-family: 'Poppins' sans-serif;
+ background-size: contain;
+ background: url("images/header-shapes mobile.png") no-repeat;
+ height: 100vh;
+ margin-bottom: 30px;
 }
 
-.container {
-  padding: 40px;
+.boxContainer {
+  margin-top: 0;
+  padding: 5px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   gap: 30px;
-  top: 0;
+  /* top: 0; */
   overflow: visible;
-  position: sticky;
+  margin-right: 30px;
 }
 
-.header {
-  background: url("images\header-shapes mobile.png") no-repeat;
+.boxHeader {
+  /* background: url("images/header-shapes mobile.png") no-repeat; */
   background-size: contain;
   display: flex;
   flex-direction: column;
 }
 
-.connect {
-  font-family: Arial, sans-serif;
+.boxConnect {
   font-style: normal;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   text-align: left;
   color: #7f8cff;
+  margin: 0 8px;
 }
 
-.par {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+.boxPar {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
-  text-align: left;
+  margin-bottom: 0;
+  /* text-align: left; */
   color: #344563;
+  /* justify-content: center; */
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
-.head {
-  font-family: Arial, sans-serif;
+.boxHead {
+  margin-bottom: 0;
+  margin-left: 5px;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -53,22 +68,37 @@ body {
   color: #172b4d;
 }
 
-.menu {
-  background: #6070ff;
+.boxMenu {
+  /* background: #6070ff; */
   position: absolute;
-  width: 18px;
-  height: 12px;
-  justify-content: flex-end;
+  margin-top: 0;
+  /* width: 18px;
+  height: 12px; */
+  /* justify-content: flex-end; */
 }
 
-.nav {
+.boxNav {
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
+  /* align-items: center; */
+  /* padding: 10px 12px; */
   position: absolute;
-  width: 100px;
-  height: 40px;
+  /* width: 100px; */
+  /* height: 40px; */
   left: 12px;
-  top: calc(50% - 40px / 2);
+  /* top: calc(50% - 40px / 2); */
 }
+
+header {
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.boxSocial {
+  margin: 0 8px;
+  margin-top: 5px;
+}
+
+
+  
