@@ -3,9 +3,7 @@
 body {
   background-color: white;
   font-family: 'Poppins', sans-serif;
-  background-image: url("images/header-shapes mobile.png");
-  background-repeat: no-repeat;
-  height: 100vh;
+  
   margin-bottom: 30px;
 }
 
@@ -21,7 +19,10 @@ body {
 }
 
 .boxHeader {
+  background-image: url("images/header-shapes mobile.png");
+  background-repeat: no-repeat;
   background-size: contain;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -34,6 +35,7 @@ body {
   text-align: left;
   color: #7f8cff;
   margin: 0 8px;
+  padding-top: 5px;
 }
 
 .boxPar {
@@ -56,6 +58,7 @@ body {
   line-height: 52px;
   text-align: left;
   color: #172b4d;
+  padding-top: 70px;
 }
 
 .boxMenu {
@@ -69,6 +72,7 @@ body {
   flex-direction: row;
   position: absolute;
   left: 12px;
+  color: #6070ff;
 }
 
 header {
@@ -78,5 +82,9 @@ header {
 
 .boxSocial {
   margin: 0 8px;
+  display: flex;
   margin-top: 5px;
+  list-style: none;
+  padding: 5px;
+  column-gap: 15px;
 }
