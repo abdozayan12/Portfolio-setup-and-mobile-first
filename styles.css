@@ -10,7 +10,7 @@ body {
   background-color: white;
   margin-top: 0;
   padding: 5px;
-  display: block;
+  display: flex;
   align-items: center;
   overflow: hidden;
   position: sticky;
@@ -35,6 +35,7 @@ body {
   color: #7f8cff;
   margin: 0 8px;
   padding-top: 10px;
+  display: flex;
 }
 
 .boxPar {
@@ -47,6 +48,7 @@ body {
   color: #344563;
   margin-left: 8px;
   margin-right: 8px;
+  display: flex;
 }
 
 .boxHead {
@@ -62,7 +64,7 @@ body {
 }
 
 .boxMenu {
-  position: flex;
+  position: block;
   margin-top: 0;
   float: right;
 }
@@ -80,6 +82,7 @@ body {
 header {
   margin-top: 0;
   margin-bottom: 70px;
+  display: block;
 }
 
 .boxSocial {
@@ -89,4 +92,40 @@ header {
   list-style: none;
   padding: 5px;
   column-gap: 15px;
+}
+.works {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tonic {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172b4d;
+}
+
+.canopy {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+}
+
+.cano {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align:left;
+  color: #7a869a;
 }
