@@ -34,7 +34,7 @@ body {
   text-align: left;
   color: #7f8cff;
   margin: 0 8px;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .boxPar {
@@ -52,12 +52,13 @@ body {
 .boxHead {
   margin-bottom: 0;
   margin-left: 5px;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 44px;
+  font-weight: 800;
   line-height: 52px;
   text-align: left;
   color: #172b4d;
   padding-top: 70px;
+  display: flex;
 }
 
 .boxMenu {
