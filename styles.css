@@ -227,6 +227,7 @@ header {
   flex-direction: column;
   list-style-type: none;
 }
+
 .abo {
   display: flex;
   flex-direction: column;
