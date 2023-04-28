@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap');
 
 body {
-  background-color: white;
+  background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 30px;
 }
@@ -69,15 +69,15 @@ body {
   float: right;
 }
 
-/* .boxNav {
+.boxNav {
   margin-top: 15px;
-  display: block;
+  display: flex;
   flex-direction: row;
   position: sticky;
   left: 12px;
   color: #6070ff;
-  float: left;
-} */
+  float: right;
+}
 
 header {
   margin-top: 0;
@@ -96,8 +96,17 @@ header {
 .works {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   font-family: 'Poppins', sans-serif;
+  border: 1px solid red;
+  background-color: white;
+}
+
+.project {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: left;
 }
 
 .tonic {
@@ -128,4 +137,75 @@ header {
   letter-spacing: 0em;
   text-align:left;
   color: #7a869a;
+  display: inline-flex;
+  gap: 30px;
+  align-items: center;
 }
+
+.list {
+  display: flex;
+
+}
+
+.button:hover {
+  color: #c16e3a;
+
+}
+.button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  width: 150px;
+  color: #396df2;
+  background-color: white;
+  border:#396df2 solid 2px;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+  ;
+}
+
+.lang {
+  display: inline-flex;
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-image:url(images/Base\ about\ my\ self.png) ;
+}
+
+.myself {
+  color: #172B4D;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.AboutMyself {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 580;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+}
+
