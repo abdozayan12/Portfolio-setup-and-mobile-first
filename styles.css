@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap');
 
 body {
-  background-color: white;
+  background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 30px;
 }
@@ -70,16 +70,6 @@ body {
   float: right;
 }
 
-/* .boxNav {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: row;
-  position: sticky;
-  left: 12px;
-  color: #6070ff;
-  float: right;
-} */
-
 header {
   margin-top: 0;
   margin-bottom: 70px;
@@ -101,7 +91,7 @@ header {
   text-align: left;
   font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
-  border: #396df2 solid 2px;
+  /* border: #396df2 solid 2px; */
 }
 
 .project {
@@ -112,7 +102,7 @@ header {
   text-align: left;
   display: flex;
   flex-direction: column;
-  border: #c16e3a dashed 2px;
+  /* border: #c16e3a dashed 2px; */
   background-color: white;
 }
 
@@ -155,14 +145,33 @@ header {
   margin: 0;
 }
 
-.button {
+.button1 {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  width: 150px;
+  width: 115px;
+  color: #396df2;
+  background-color: white;
+  border: #396df2 solid 2px;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.button1 :hover {
+  color: #c16e3a;
+}
+
+.button2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  width: 154px;
   color: #396df2;
   background-color: white;
   border: #396df2 solid 2px;
@@ -182,7 +191,7 @@ header {
   text-align: left;
   color: #344563;
   padding: 0;
-  margin: 0;
+  margin: 5px;
 }
 
 .lang {
@@ -205,9 +214,10 @@ letter-spacing: 0.03em;
   background-color: #ebebff;
   border-radius: 10px;
   color: #6070ff;
-  padding: 10px;
+  padding: 4px 12px;
   margin-bottom: 20px;
-  background-size: 30px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .about {
@@ -215,7 +225,7 @@ letter-spacing: 0.03em;
   flex-direction: column;
   background-image: url(images/Base\ about\ my\ self.png);
   margin: 0px;
-  border: #0d23e6 dotted 2px;
+  /* border: #0d23e6 dotted 2px; */
   padding: 0;
 }
 
@@ -258,9 +268,10 @@ letter-spacing: 0.03em;
 .langu {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   margin-right: 10px;
+  margin-left: -34px;
   padding: 0;
 }
 
@@ -269,6 +280,11 @@ letter-spacing: 0.03em;
   flex-direction: column;
   list-style-type: none;
 }
+
+.languag li img {
+  width: 100%;
+}
+
 .abo {
   display: flex;
   flex-direction: column;
