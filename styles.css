@@ -108,6 +108,8 @@ header {
   padding: 20px;
   border-radius: 4px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .tonic {
@@ -204,7 +206,6 @@ header {
   font-weight: 700;
   line-height: 52px;
   text-align: left;
-  padding-top: 10px;
 }
 
 .AboutMyself {
@@ -214,7 +215,6 @@ header {
   line-height: 24px;
   text-align: left;
   color: #344563;
-  padding-bottom: 10px;
 }
 
 .langu {
@@ -226,10 +226,4 @@ header {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-}
-
-.abo {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
 }
