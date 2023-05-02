@@ -351,3 +351,28 @@ header {
     font-size: 20px;
     font-weight: 400;
 }
+
+.contactMe .form {
+  width: 327px;
+  margin: auto;
+}
+
+.contactMe .form-control {
+  margin: 10px auto;
+}
+
+.contactMe input {
+  border-radius: 8px;
+  width: 100%;
+  height: 48px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.contactMe textarea {
+  border-radius: 8px;
+  width: 100%;
+  height: 170px;
+  margin: 10px 0;
+  padding: 10px;
+}
