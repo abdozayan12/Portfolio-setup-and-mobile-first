@@ -169,22 +169,22 @@ header {
 }
 
 .lang {
-  display: flex;
   list-style-type: none;
   text-decoration: none;
   padding-left: 0;
   margin-right: 10px;
-  gap: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  letter-spacing: 0.03em;
 }
 
 .lang li {
   background-color: #ebebff;
   border-radius: 10px;
+  /* width: 15%; */
+  margin-right: 10px;
+  float: left;
   color: #6070ff;
   padding: 4px 12px;
   margin-bottom: 20px;
