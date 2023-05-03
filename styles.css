@@ -16,38 +16,75 @@
     margin-bottom: 30px;
   }
   
-  .header {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .boxContainer {
+  .nav-bar {
     background-color: white;
-    margin-top: 0;
-    padding: 5px;
-    display: flex;
-    align-items: center;
+    padding: 40px;
+    display: block;
+    top: 0;
     overflow: hidden;
     position: sticky;
-    justify-content: space-between;
   }
-  
-  .boxHeader {
-    background-color: white;
-    background-image: url("images/header-shapes mobile.png");
+
+  .nav-bar .logo {
+    float: left;
+    text-decoration: none;
+    color: #6070ff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+  }
+
+  .nav-links {
+    text-decoration: none;
+    color: #344563;
+    font-size: 18px;
+    font-weight: 500;
+    float: right;
+    padding: 10px;
+  }
+
+  .nav-bar a:hover {
+    color: cyan;
+  }
+
+  .first {
+    background-image: url(images/Header.png);
+    background-position: center 30px;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border-bottom-left-radius: 80px;
+    border-bottom-left-radius: 160px;
+    background-color: #fff;
+    height: 798px;
   }
-  
-  .boxHeader h1 {
-    margin-top: 30px;
+
+  .boxHeader {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
   }
-  
+
+  .boxHead {
+    margin-bottom: 20px;
+    padding: 14rem;
+  }
+
+  .boxHead h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #091e42;
+  }
+
+  .boxHead p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
   .boxConnect {
     font-style: normal;
     font-size: 16px;
@@ -55,49 +92,11 @@
     line-height: 24px;
     text-align: left;
     color: #7f8cff;
-    margin: 0 8px;
     padding-top: 10px;
     display: flex;
   }
-  
-  .boxPar {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 0;
-    color: #344563;
-    margin-left: 8px;
-    margin-right: 8px;
-    display: flex;
-  }
-  
-  .boxHead {
-    margin-bottom: 0;
-    margin-left: 5px;
-    font-size: 44px;
-    font-weight: 800;
-    line-height: 52px;
-    text-align: left;
-    color: #172b4d;
-    padding-top: 70px;
-    display: flex;
-  }
-  
-  .boxMenu {
-    position: block;
-    margin-top: 0;
-    float: right;
-  }
-  
-  header {
-    margin-top: 0;
-    display: block;
-  }
-  
+
   .boxSocial {
-    margin: 0 8px;
     display: flex;
     margin-top: 5px;
     list-style: none;
@@ -403,45 +402,82 @@
   }
 }
 
-@media screen and (min-width:768px) {
-  @media screen and (min-width:375px) {
+@media (min-width:768px) {
     body {
+      font-family: 'Poppins', sans-serif;
       background-color: #e5e5e5;
-      margin-bottom: 30px;
+      width: 100%;
     }
-    
-    .header {
-      padding: 0;
-      margin: 0;
-    }
-    
-    .boxContainer {
+  
+    .nav-bar {
       background-color: white;
-      margin-top: 0;
-      padding: 5px;
-      display: flex;
-      align-items: center;
+      padding: 40px;
+      display: block;
+      top: 0;
       overflow: hidden;
       position: sticky;
-      justify-content: space-between;
     }
-    
-    .boxHeader {
-      background-color: white;
-      background-image: url("images/header-shapes mobile.png");
+  
+    .nav-bar .logo {
+      float: left;
+      text-decoration: none;
+      color: #6070ff;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 10px;
+    }
+  
+    .nav-links {
+      text-decoration: none;
+      color: #344563;
+      font-size: 18px;
+      font-weight: 500;
+      float: right;
+      padding: 10px;
+    }
+  
+    .nav-bar a:hover {
+      color: cyan;
+    }
+  
+    .first {
+      background-image: url(images/Header.png);
+      background-position: center 30px;
+      background-size: 100%;
       background-repeat: no-repeat;
-      background-size: contain;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
-      border-bottom-left-radius: 80px;
+      border-bottom-left-radius: 160px;
+      background-color: #fff;
+      height: 798px;
     }
-    
-    .boxHeader h1 {
-      margin-top: 30px;
+  
+    .boxHeader {
+      max-width: 1440px;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 0 40px;
     }
-    
+  
+    .boxHead {
+      margin-bottom: 20px;
+      padding: 14rem;
+    }
+  
+    .boxHead h1 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 60px;
+      letter-spacing: 0.37px;
+      color: #091e42;
+    }
+  
+    .boxHead p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      color: #344563;
+    }
+  
     .boxConnect {
       font-style: normal;
       font-size: 16px;
@@ -449,55 +485,18 @@
       line-height: 24px;
       text-align: left;
       color: #7f8cff;
-      margin: 0 8px;
       padding-top: 10px;
       display: flex;
     }
-    
-    .boxPar {
-      font-family: 'Poppins', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-      margin-bottom: 0;
-      color: #344563;
-      margin-left: 8px;
-      margin-right: 8px;
-      display: flex;
-    }
-    
-    .boxHead {
-      margin-bottom: 0;
-      margin-left: 5px;
-      font-size: 44px;
-      font-weight: 800;
-      line-height: 52px;
-      text-align: left;
-      color: #172b4d;
-      padding-top: 70px;
-      display: flex;
-    }
-    
-    .boxMenu {
-      position: block;
-      margin-top: 0;
-      float: right;
-    }
-    
-    header {
-      margin-top: 0;
-      display: block;
-    }
-    
+  
     .boxSocial {
-      margin: 0 8px;
       display: flex;
       margin-top: 5px;
       list-style: none;
       padding: 5px;
       column-gap: 15px;
     }
+    
     
     .works {
       display: flex;
@@ -514,7 +513,7 @@
       border-radius: 15px;
       text-align: left;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       background-color: white;
     }
     
@@ -522,6 +521,7 @@
       display: flex;
       flex-direction: column;
       padding-top: 12px;
+      padding-left: 24px;
       font-family: 'Poppins', sans-serif;
     }
     
@@ -646,13 +646,15 @@
     
     .about {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       background-image: url(images/Base\ about\ my\ self.png);
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 4px;
       text-align: left;
       margin-left: -10px;
+      justify-content: space-around;
+      padding: 90px
     }
     
     .section2 {
@@ -708,12 +710,7 @@
     
     .langu {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-right: 0;
-      margin-left: -34px;
-      padding: 0;
+      flex-direction: column; 
     }
     
     .langu ul {
@@ -722,10 +719,28 @@
       list-style-type: none;
     }
     
+    .languag .fLi {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .languag .fLi li {
+      padding: 5px;
+      width: 25%;
+    }
+
+    .languag .fLi img {
+      size: 10%;
+    }
+
     .languag li img {
       width: 100%;
     }
     
+.bgWhite {
+  background-color: #fff;
+}
+
     .contactMe {
       color: #fff;
       padding-top: 103px;
@@ -736,7 +751,7 @@
       background-color: #396df2;
       height: 779px;
       border-top-left-radius: 80px;
-      background-image: url(images/contact-form-shapes-mobile.png);
+      background-image: url("images/contact.svg");
       background-repeat: no-repeat;
       background-position: right;
     }
@@ -750,6 +765,7 @@
       margin: 12px 24px;
       font-size: 20px;
       font-weight: 400;
+      padding: 0 202px;
     }
     
     .contactMe .form {
@@ -778,7 +794,7 @@
     }
     
     .contactMe .buttonThree {
-      display: flex;
+      display: block;
       flex-direction: row;
       align-items: center;
       padding: 12px 16px;
@@ -788,7 +804,8 @@
       font-weight: 500;
       font-size: 17px;
       line-height: 24px;
-      margin-top: 8px;
+      /* margin-top: 8px; */
+      margin: auto;
     }
     
     .buttonThree:hover {
@@ -796,5 +813,5 @@
       background-color: #396df2;
     }
   }
-}
+
 
