@@ -10,7 +10,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@media only screen and (min-width:767px) {
+@media only screen and (min-width:768px) {
 
     img {
       width: 100%;
@@ -152,8 +152,8 @@
       height: 100%;
       overflow: hidden;
       border-radius: 24px;
-      padding: 20px;
-      margin: 10px;
+      padding: 15px;
+      margin-top: 104px;
     }
     
     .grid-item {
@@ -172,12 +172,29 @@
     .tonic {
       font-size: 40px;
       font-weight: 700;
-      text-align: left;
       color: #091e42;
       font-style: normal;
+    }
+
+    .listItem {
+      list-style-type: disc;
       display: flex;
-      margin: 0;
-      padding-bottom: 2%;
+      flex-wrap: wrap;
+    }
+
+    .listItem li {
+      margin-right: 5px;
+      font-size: 18px;
+      font-weight: 400;
+      color:#6b778c;
+      margin-left: 20px;
+    }
+
+    .listItem li:first-child {
+      font-weight: 500;
+      color: #344563;
+      list-style-type: none;
+      margin-left: 0;
     }
     
     .list {
@@ -205,15 +222,16 @@
     
     .firstPara {
       font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-      text-align: left;
-      color: #344563;
-      padding: 3% 24% 4% 0%;
+    font-weight: 400;
+    line-height: 24px;
+    /* text-align: left; */
+    margin: 7px 0;
+    color: #344563;
     }
     
     .lang {
       display: flex;
+      flex-wrap: wrap;
       list-style-type: none;
       text-decoration: none;
       /* padding-left: 0; */
@@ -420,7 +438,8 @@
       text-align: left;
       margin-left: -10px;
       justify-content: space-around;
-      padding: 90px
+      padding: 90px;
+      height: 668px;
     }
     
     .section2 {
@@ -515,7 +534,7 @@
       text-align: center;
       font-family: 'poppins', sans-serif;
       background-color: #396df2;
-      height: 779px;
+      height: 846px;
       border-top-left-radius: 80px;
       background-image: url("images/contact.svg");
       background-repeat: no-repeat;
